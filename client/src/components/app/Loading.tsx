@@ -5,8 +5,6 @@ export function Loading() {
   // will use React Query `useIsFetching` to determine whether or not to display
   const isFetching = useIsFetching();
 
-  console.log('isFetching: ', isFetching);
-
   const display = isFetching ? 'inherit' : 'none';
 
   return (
